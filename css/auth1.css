@@ -1,0 +1,79 @@
+.error_table-login {
+    position: fixed;
+    cursor: default;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.705);
+}
+
+.error_login {
+    background-color: #ffff;
+    color: red;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 550;
+    border-radius: .4rem;
+    padding: 40px 0;
+}
+
+.table_login {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: .3rem;
+    box-shadow: 0 0 2px #000;
+}
+
+.text-login {
+    color: rgb(0, 140, 255);
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.form_group + .form_group {
+    margin-top: 1.3rem;
+}
+
+.form_group > label {
+    font-weight: 600;
+}
+
+.form_controller {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.form_controller:hover {
+    border: 1px solid blue;
+    box-shadow: 0 0 2px blue;
+}
+.invalid .form_controller {
+    border: 1px solid red;
+    box-shadow: 0 0 2px red;
+}
+
+.invalid .msg_error {
+    font-size: .8rem;
+    color: red;
+}
+
+.password_login {
+    position: relative;
+}
+
+.eye-pass {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
